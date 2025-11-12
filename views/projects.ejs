@@ -1,0 +1,56 @@
+<%- include ./partials/header.ejs %>
+<%- include ./partials/main_nav.ejs %>
+
+<!-- Projects -->
+<main class="container-fluid py-5 pb-5">
+  <h1 class="mb-4"><%= title %></h1>
+
+  <!-- Bootstrap grid: 2 cards per row on medium+ screens -->
+  <div class="row">
+    <!-- Project 1 -->
+    <div class="col-md-6 mb-4">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Auto Payment Calculator</h5>
+          <p class="card-text">Excel-based financial automation tool using VBA macros to streamline payment calculations and reporting.</p>
+          <p class="text-muted small">Tech: Excel, VBA</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="col-md-6 mb-4">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Networking II Case Study</h5>
+          <p class="card-text">Designed a secure, remote-managed network using Cisco Packet Tracer with VPN, VLANs, BGP, and SSH for branch integration.</p>
+          <p class="text-muted small">Tech: Cisco Packet Tracer</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="col-md-6 mb-4">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Portfolio Site</h5>
+          <p class="card-text">A modular ExpressJS portfolio using EJS templating, Bootstrap, and Font Awesome. Fully responsive and deployed to Render.</p>
+          <p class="text-muted small">Tech: Express, EJS, Bootstrap</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 4 -->
+    <div class="col-md-6 mb-4">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Student Grading Calculator</h5>
+          <p class="card-text">Python app with Tkinter GUI and CSV support for managing student grades, GPA calculation, and personalized feedback.</p>
+          <p class="text-muted small">Tech: Python, Tkinter, CSV</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<%- include ./partials/footer.ejs %>

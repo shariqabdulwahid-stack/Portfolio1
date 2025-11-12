@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  /*light background for readability */
+  background-color: #f8f9fa;
+}
+
+/* Main content spacing */
+main {
+  padding: 50px 20px 80px; /* Top, sides, bottom padding */
+}
+
+/* Link styling */
+a {
+  color: #00B7FF;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer spacing */
+footer .navbar {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}

@@ -1,0 +1,55 @@
+<%- include ./partials/header.ejs %>
+<%- include ./partials/main_nav.ejs %>
+
+    <!-- Main welcome section -->
+    <main class="container py-5 text-center">
+      <h1 class="display-4">Welcome to My Profile</h1>
+      <p class="lead mt-5">I'm Shariq Abdul-Wahid, a Networking & IT Security student passionate about building secure, scalable web apps.</p>
+      <!-- &nbsp; = non-breaking space to prevent line breaks -->
+      <p class="text-muted mt-4">📍 Oshawa, ON &nbsp; | &nbsp; 📧 shariq.abdulwahid@gmail.com</p>
+
+      <!-- Overview boxes using Bootstrap grid -->
+      <div class="container mt-5">
+        <div class="row justify-content-center">
+        
+          <!-- About Me Box -->
+          <div class="col-md-4 mb-4">
+            <div class="card shadow-sm h-100">
+              <div class="card-body text-center">
+                <h5 class="card-title">About Me</h5>
+                <p class="card-text small">Learn about my background, skills, and interests in IT security and web development.</p>
+                <a href="/about" class="btn btn-outline-primary btn-sm">Go to About</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Projects Box -->
+          <div class="col-md-4 mb-4">
+            <div class="card shadow-sm h-100">
+              <div class="card-body text-center">
+                <h5 class="card-title">Projects</h5>
+                  <p class="card-text small">Explore my recent work, including this portfolio and other backend-focused builds.</p>
+                  <a href="/projects" class="btn btn-outline-primary btn-sm">View Projects</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Me Box -->
+          <div class="col-md-4 mb-4">
+            <div class="card shadow-sm h-100">
+              <div class="card-body text-center">
+                <h5 class="card-title">Contact Me</h5>
+                <p class="card-text small">Reach out via form or connect through GitHub and LinkedIn in the footer below.</p>
+                <a href="/contactme" class="btn btn-outline-primary btn-sm">Get in Touch</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+<!-- Spacer to push footer lower -->
+<div class="my-1 py-1"></div>
+
+
+<%- include ./partials/footer.ejs %>
